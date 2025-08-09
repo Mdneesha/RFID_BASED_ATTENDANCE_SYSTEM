@@ -37,7 +37,7 @@ This project automates attendance tracking using RFID technology, interfaced wit
 | `lcd.c / lcd.h`      | LCD display routines |
 | `spi.c / spi.h`      | SPI communication setup |
 | `spi_eeprom.c / .h`  | EEPROM read/write logic |
-| `uart.c / uart.h`    | UART0 and UART1 communication |
+| `uart.c,UART1.C / uart.h,uart1.h`    | UART0 and UART1 communication |
 | `rtc.c / rtc.h`      | RTC time/date functions |
 | `kpm.c / kpm.h`      | Keypad input handling |
 | `delay.c / delay.h`  | Delay implementation |
