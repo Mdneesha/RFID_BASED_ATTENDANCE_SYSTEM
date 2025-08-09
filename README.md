@@ -32,7 +32,7 @@ This project automates attendance tracking using RFID technology, interfaced wit
 
 | File                 | Description |
 |----------------------|-------------|
-| `rfidmajor_main.c`   | Main program logic, includes `main()`, `admin_menu()` |
+| `rfidmajor_main.c`   | Main program logic, includes `main()`, `admin_menu()`,'serial_open()' |
 | `rfidmajor_fun.c`    | Handles RFID processing and time calculations; includes `get_current_time()`, `calculate_duration()` |
 | `lcd.c / lcd.h`      | LCD display routines |
 | `spi.c / spi.h`      | SPI communication setup |
@@ -65,7 +65,7 @@ This project automates attendance tracking using RFID technology, interfaced wit
 
 | S.No | User ID | Name | Date | Working Hours | IN/OUT | IN Time | OUT Time |
 |------|---------|------|------|----------------|--------|----------|-----------|
-| 1    | 1234    | John | 08-08-2025 | 05:30 | IN     | 09:00   | 14:30     |
+| 1    | 1234    | John | 08-08-2025 | 5 hours 30 minutes | IN     | 09:00   | 14:30     |
 
 ## How to Run
 
